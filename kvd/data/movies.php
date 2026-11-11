@@ -1,0 +1,88 @@
+<?php
+// Paraugdati: filmu saraksts. Vēlāk šo failu var aizstāt ar datubāzi.
+return [
+    [
+        'id' => 1, 'title' => 'Nakts pilsēta', 'year' => 2024,
+        'genres' => ['Drāma', 'Trilleris'], 'rating' => 8.4,
+        'short' => 'Izmeklētāja vienas nakts laikā mēģina novērst noziegumu, kas vēl nav noticis.',
+        'description' => 'Pēc pusnakts pilsēta mostas citā dzīvē. Izmeklētāja Elza saņem anonīmu zvanu par nozieguma vietu, kas vēl nav notikusi. Katra nākamā stunda atklāj jaunu pavedienu, bet arī tuvāko cilvēku noslēpumus. Filma ar saspringtu sižetu un spēcīgu vizuālo noskaņu.',
+        'actors' => ['Elza Ozola', 'Mārtiņš Kalns', 'Laura Bērziņa', 'Jānis Vītols', 'Anna Liepa'],
+    ],
+    [
+        'id' => 2, 'title' => 'Zvaigžņu ceļš', 'year' => 2023,
+        'genres' => ['Drāma'], 'rating' => 7.6,
+        'short' => 'Divu brāļu ceļojums, kas liek pārvērtēt vecas attiecības.',
+        'description' => 'Divi brāļi pēc ilgiem gadiem atkal satiekas, lai kopā aizvestu tēva pelnus uz vietu, kur viņš reiz vēroja zvaigznes. Ceļojums pa lauku ceļiem atver vecas rētas un liek pārvērtēt attiecības. Mierīga un sirsnīga stāsta filma.',
+        'actors' => ['Pēteris Rudzītis', 'Andris Krūmiņš', 'Ilze Dārziņa', 'Roberts Ābols', 'Inese Zariņa'],
+    ],
+    [
+        'id' => 3, 'title' => 'Pēdējā vasara', 'year' => 2022,
+        'genres' => ['Drāma', 'Romantika'], 'rating' => 7.2,
+        'short' => 'Piecu draugu pēdējā kopīgā vasara pie jūras.',
+        'description' => 'Skolas beigu vasarā piecu draugu kompānija pavada laiku pie jūras. Katram ir sava nākotnes izvēle, un kopā pavadītās dienas kļūst arvien dārgākas. Filma par pieaugšanu, draudzību un pirmo mīlestību.',
+        'actors' => ['Kristīne Jansone', 'Edgars Siliņš', 'Marta Ozoliņa', 'Rihards Balodis', 'Elīna Kļava'],
+    ],
+    [
+        'id' => 4, 'title' => 'Zaudētā pasaule', 'year' => 2024,
+        'genres' => ['Piedzīvojumi', 'Fantastika'], 'rating' => 7.9,
+        'short' => 'Pētnieki senā ielejā meklē ceļu atpakaļ uz mājām.',
+        'description' => 'Pētnieku grupa atrod ieeju senā ielejā, kuru laiks šķiet aizmirsis. Starp neparastiem dzīvniekiem un augiem viņiem jāatrod ceļš atpakaļ, pirms aizveras vienīgais izejas portāls. Piedzīvojumu filma ar iespaidīgiem skatiem.',
+        'actors' => ['Gatis Mežs', 'Zane Vilka', 'Oskars Lāce', 'Dace Kārkliņa', 'Normunds Sproģis'],
+    ],
+    [
+        'id' => 5, 'title' => 'Sarkanais mežs', 'year' => 2021,
+        'genres' => ['Šausmas', 'Trilleris'], 'rating' => 6.8,
+        'short' => 'Ģimenes jaunajā mājā mežs sāk runāt.',
+        'description' => 'Ģimene pārceļas uz māju meža malā, kur rudenī lapas kļūst neparasti sarkanas. Drīz vien bērni sāk dzirdēt balsis no koku puses. Šausmu filma ar lēnu spriedzes kāpinājumu un biedējošu skaņu celiņu.',
+        'actors' => ['Aigars Lapsa', 'Sandra Eglīte', 'Mikus Pūce', 'Evija Rītiņa', 'Kaspars Bērzs'],
+    ],
+    [
+        'id' => 6, 'title' => 'Okeāna dziļumos', 'year' => 2023,
+        'genres' => ['Piedzīvojumi', 'Drāma'], 'rating' => 8.0,
+        'short' => 'Ekspedīcija atrod dzīvību tur, kur to neviens negaidīja.',
+        'description' => 'Jūras biologa ekspedīcija nolaižas dziļāk, nekā jebkad agrāk. Tur viņi atrod dzīvības formas, kas maina viņu uzskatus par planētu. Filma apvieno zinātni, spriedzi un dabas skaistumu.',
+        'actors' => ['Viesturs Lūsis', 'Agnese Cīrule', 'Toms Ķirsis', 'Beāte Rozīte', 'Valdis Strazds'],
+    ],
+    [
+        'id' => 7, 'title' => 'Vēja bērni', 'year' => 2020,
+        'genres' => ['Komēdija', 'Piedzīvojumi'], 'rating' => 7.0,
+        'short' => 'Trīs bērni ar burvju gaisa balonu dodas pie vecmāmiņas.',
+        'description' => 'Trīs bērni vasarā atrod veco gaisa balonu un nolemj ar to aizlidot pie vecmāmiņas. Pa ceļam viņus gaida smieklīgi starpgadījumi un jauni draugi. Gaiša ģimenes filma visiem vecumiem.',
+        'actors' => ['Alise Pētersone', 'Daniels Roze', 'Samanta Lielmane', 'Ervīns Kronbergs', 'Ruta Vīksne'],
+    ],
+    [
+        'id' => 8, 'title' => 'Melnā roze', 'year' => 2022,
+        'genres' => ['Drāma', 'Trilleris'], 'rating' => 7.5,
+        'short' => 'Mantota roze atklāj aizmirstu ģimenes vēsturi.',
+        'description' => 'Dārznieces dzīvi pārvērš noslēpumains dzimtas mantojums — sēkla ar ļoti retu rozi. Meklējot tās izcelsmi, viņa atklāj ģimenes aizmirstu vēsturi. Gaumīga filma ar detektīvstāsta elementiem.',
+        'actors' => ['Ināra Strēle', 'Gunārs Priede', 'Vineta Kalna', 'Raivis Sīlis', 'Madara Egle'],
+    ],
+    [
+        'id' => 9, 'title' => 'Zelta stunda', 'year' => 2024,
+        'genres' => ['Romantika', 'Drāma'], 'rating' => 7.8,
+        'short' => 'Divi cilvēki satiekas katru vakaru saulrieta stundā.',
+        'description' => 'Fotogrāfe un vecpilsētas gids satiekas katru vakaru īsi pirms saulrieta. Viņu sarunas kļūst par ikdienas rituālu, kuru abi baidās pārtraukt. Silta un tēlaina filma par mīlestību mazajās lietās.',
+        'actors' => ['Evita Auziņa', 'Kristaps Zvirbulis', 'Lelde Straume', 'Arvis Gulbis', 'Olga Kalniņa'],
+    ],
+    [
+        'id' => 10, 'title' => 'Pēdējais vilciens', 'year' => 2023,
+        'genres' => ['Trilleris'], 'rating' => 7.3,
+        'short' => 'Vilciens apstājas pieturā, kuras nav nevienā sarakstā.',
+        'description' => 'Nakts vilcienā pasažieri atklāj, ka nākamā pietura nav ieplānota nevienā sarakstā. Spriedze aug ar katru vagonu, un neviens vairs nezina, kam var uzticēties. Slēgtas telpas trilleris ar negaidītu atrisinājumu.',
+        'actors' => ['Mareks Dzenis', 'Sintija Pole', 'Uldis Brencis', 'Vita Gaile', 'Egils Zīle'],
+    ],
+    [
+        'id' => 11, 'title' => 'Kosmosa suns', 'year' => 2021,
+        'genres' => ['Fantastika', 'Komēdija'], 'rating' => 6.9,
+        'short' => 'Suns kosmosa kuģī kļūst par apkalpes glābēju.',
+        'description' => 'Pamests kosmosa kuģa suns nejauši kļūst par visas apkalpes glābēju. Ar dīvainiem robotiem un runājošu datoru viņš dodas mājup. Jautra un viegla fantastikas komēdija.',
+        'actors' => ['Jānis Kalējs', 'Aija Vilcāne', 'Līga Mieze', 'Pauls Ūsiņš', 'Dainis Kauliņš'],
+    ],
+    [
+        'id' => 12, 'title' => 'Ziemas saule', 'year' => 2022,
+        'genres' => ['Drāma'], 'rating' => 8.1,
+        'short' => 'Skolotājs ar ciema bērniem atjauno pamesto skolu.',
+        'description' => 'Atvaļināts skolotājs ziemā nolemj atjaunot pamesto lauku skolu. Viņam palīdz ciema bērni un nelabprāt arī vietējais veikalnieks. Silta, lēna stāstījuma filma par kopienas spēku.',
+        'actors' => ['Ansis Birze', 'Ieva Kalniete', 'Rolands Zemīte', 'Anita Krasta', 'Gundars Mauriņš'],
+    ],
+];
